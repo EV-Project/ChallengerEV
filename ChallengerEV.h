@@ -22,6 +22,8 @@ struct WheelID{
   const bool isFront;
 };  
 
+const uint32_t pedalsToDashID = 150;  //ID for the padals that is used by the display	
+
 
 const int nWheels = 4;
 const WheelID wheel[nWheels] = {
@@ -30,6 +32,7 @@ const WheelID wheel[nWheels] = {
   {32,109,117,142, false},
   {33,110,118,143, false}
 };
+
 
 
 
