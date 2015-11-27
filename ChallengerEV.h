@@ -13,6 +13,9 @@ const uint8_t estopBit = 3;
 const uint8_t brakeWarnBit = 4;
 const uint8_t throttleWarnBit = 5;
 
+const uint8_t redLightBit = 6;
+const uint8_t greenLightBit = 7;
+
 
 struct WheelID{
   const uint32_t managerID;   //ID of the wheel manager board
